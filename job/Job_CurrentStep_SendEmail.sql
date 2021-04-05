@@ -70,7 +70,7 @@ BEGIN
 				DATEDIFF
 				(
 					MINUTE,
-					isnull(ja.last_executed_step_date,ja.start_execution_date),
+					ISNULL(ja.last_executed_step_date,ja.start_execution_date),
 					GETDATE()
 				),
 				0
