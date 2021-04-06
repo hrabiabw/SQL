@@ -10,7 +10,7 @@ ALTER PROCEDURE [adm].[Job_CurrentStep_SendEmail]
 (
 	@job_name NVARCHAR(256) = ''
 	,@subject_prefix NVARCHAR(256) = ''
-	,@is_email tinyint = 1
+	,@is_email TININTY = 1
 	,@recipients NVARCHAR(1024) = ''
 )
 AS
